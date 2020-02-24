@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Fleftex';
+    src: url('font/Fleftex_M.ttf');
+}
+.text {
+    -fx-font-family: 'Fleftex';
+    -ft-font-size: 20;
+}
+.label {
+    -fx-font-family: 'Fleftex';
+    -fx-font-size: 40;
+}
+
+.button  {
+    -fx-background-color: transparent;
+    -fx-font-family: 'Fleftex';
+    -fx-font-size: 35;
+}
+.button:hover{
+    -fx-border-color: transparent, black;
+    -fx-border-width: 3, 3;
+    -fx-border-style: solid;
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
